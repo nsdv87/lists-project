@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Марковані списки */
+.circle {
+    list-style-type: circle;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.image-list {
+    list-style-image: url("images/check.png");
+}
+
+/* Вкладені списки */
+ul ul {
+    margin-left: 30px;
+}
+
+/* Список визначень */
+dl {
+    background-color: #f5f5f5;
+    padding: 15px;
+    width: 70%;
+}
+
+dt {
+    font-weight: bold;
+    color: #333;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
